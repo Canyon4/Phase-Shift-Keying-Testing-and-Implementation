@@ -16,7 +16,7 @@ bitRate = 500
 samplesPerBit = sampleFreq / bitRate #how many samples per one transmitted bit
 
 baseband = np.repeat(2*bitsArray - 1, samplesPerBit)
-print(baseband)
+
 
 t = np.arange(len(baseband)) / sampleFreq
 
