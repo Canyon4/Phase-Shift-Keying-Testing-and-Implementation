@@ -1,5 +1,6 @@
 import random
 
+# generates random bit data and writes it into a .txt file
 BitIn = open("BitInput.txt", "w")
 
 numBits = 1000
